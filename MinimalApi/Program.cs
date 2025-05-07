@@ -2,7 +2,7 @@ using Carter;
 using MinimalApi.Users;
 using MinimalApi.Weather;
 
-namespace HarryApi;
+namespace MinimalApi;
 
 public class Program
 {
