@@ -1,6 +1,4 @@
 using Carter;
-using MinimalApi.Users;
-using MinimalApi.Weather;
 
 namespace MinimalApi;
 
@@ -15,7 +13,6 @@ public class Program
 
         // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
         builder.Services.AddOpenApi();
-        builder.Services.AddCarter();
         builder.Services.AddModules();
 
         var app = builder.Build();
