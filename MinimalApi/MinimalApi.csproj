@@ -12,8 +12,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MinimalApi.Users\MinimalApi.Users.csproj" />
-      <ProjectReference Include="..\MinimalApi.Weather\MinimalApi.Weather.csproj" />
+      <ProjectReference Include="..\Users\Users.csproj" />
+      <ProjectReference Include="..\Weather\Weather.csproj" />
     </ItemGroup>
 
 </Project>

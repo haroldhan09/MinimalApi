@@ -25,8 +25,9 @@ public static class ServiceCollectionExtensions
     {
         // Find all types that end with "Module", are classes, and are not abstract
         var moduleTypes = AppDomain.CurrentDomain.GetAssemblies()
-            .SelectMany(a => a.GetTypes())
-            .Where(t => t is { IsClass: true, IsAbstract: false } && t.Name.EndsWith("Module"));
+            .SelectMany(x => x.GetTypes())
+            .Where(x => x is { IsClass: true, IsAbstract: false })
+            .Where(x => x.Name.EndsWith("Module"));
 
         foreach (var moduleType in moduleTypes)
         {

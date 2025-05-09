@@ -5,6 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>MinimalApi.Weather</RootNamespace>
+        <AssemblyName>MinimalApi.Weather</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
